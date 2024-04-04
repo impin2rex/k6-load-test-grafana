@@ -45,6 +45,7 @@ services:
       - influxdb
     networks:
       - k6
+      - grafana
 
   k6:
     image: grafana/k6
